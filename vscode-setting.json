@@ -1,0 +1,51 @@
+{
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.commentAndMoveDown",
+            "sequence": [
+                "editor.action.commentLine",
+                "cursorDown"
+            ]
+        }
+    ],
+    "workbench.colorTheme": "Adonis Darker",
+    "remote.SSH.remotePlatform": {
+        "10.4.5.32": "windows",
+        "10.8.8.26": "linux",
+        "sed-185": "linux",
+        "ubuntu-dev": "linux",
+        "10.120.22.40": "linux",
+        "motorway-service": "linux",
+        "office-dev": "linux",
+        "sed-186": "windows",
+        "office-k8s": "linux",
+        "motorway-40": "linux",
+        "pty-32": "windows"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "window.newWindowProfile": "Default",
+    "security.workspace.trust.untrustedFiles": "open",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "notebook.defaultFormatter": "esbenp.prettier-vscode",
+    "[sql]": {
+        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "notebook.lineNumbers": "on",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "python": false
+    },
+    "workbench.startupEditor": "none",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSurroundingLines": 10,
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.wrappingStrategy": "advanced"
+}
