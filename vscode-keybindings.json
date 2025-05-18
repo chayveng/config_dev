@@ -272,5 +272,34 @@
     "key": "ctrl+z",
     "command": "-extension.vim_ctrl+z",
     "when": "editorTextFocus && vim.active && vim.use<C-z> && !inDebugRepl"
+  },
+    // Key Mapping Neovim
+  {
+    "key": "ctrl+c",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "-vscode-neovim.send"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "-workbench.action.quit"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "vscode-neovim.send",
+    "args": "<C-v>",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal.z && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "-vscode-neovim.send",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal.z && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "-vscode-neovim.send",
+    "when": "editorTextFocus && neovim.ctrlKeysInsert.z && neovim.init && neovim.mode == 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
   }
 ]
