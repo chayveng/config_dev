@@ -1,4 +1,14 @@
 {
+    "editor.minimap.enabled": false,
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "explorer.compactFolders": false,
+    "explorer.decorations.colors": false,
+    "explorer.decorations.badges": false,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
     "multiCommand.commands": [
         {
             "command": "multiCommand.commentAndMoveDown",
