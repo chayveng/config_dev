@@ -9,6 +9,8 @@
         }
     ],
     "workbench.colorTheme": "Adonis Darker",
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "always",
     "remote.SSH.remotePlatform": {
         "10.4.5.32": "windows",
         "10.8.8.26": "linux",
