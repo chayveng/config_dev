@@ -25,6 +25,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ${jZSH_CUSTOM}/pl
 
 sed -i 's/^ZSH_THEME=.*/ZSH_THEME=""\nPROMPT="%n@%m [%*] %~ %# "/'
 
+# PROMPT="%n@%m[%*]:%~ %$"
+# PROMPT="%F{82}%n@%m%f[%F{220}%*%f]:%F{39}%~%f %# "
+# PROMPT="%F{cyan}%n@%m%f %F{magenta}[%*]%f %F{blue}%~%f %# "
+# PROMPT="%F{green}%n@%m%f:%F{cyan}%~%f %F{red}%#%f "
+
 sed -i 's/^plugins=.*/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc
 
 echo "== Done! =="
