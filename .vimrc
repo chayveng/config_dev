@@ -15,6 +15,7 @@ syntax enable
 set showmatch
 " Enable line search highlighting
 set hlsearch
+set noswapfile
 
 " Plugin Manager - vim-plug
 call plug#begin('~/.vim/plugged')
