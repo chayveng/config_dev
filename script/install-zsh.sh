@@ -21,7 +21,7 @@ ZSH_CUSTOM=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM}/plugins/zsh-autosuggestions
 
 # syntax highlighting
-git clone https://github.com/zsh-users/zsh-syntax-highlighting ${jZSH_CUSTOM}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM}/plugins/zsh-syntax-highlighting
 
 sed -i 's/^ZSH_THEME=.*/ZSH_THEME=""\nPROMPT="%n@%m [%*] %~ %# "/'
 
